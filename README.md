@@ -5,3 +5,6 @@
 
 # 2 변수 선언법 
 
+# 3 Numbers 
+
+1) 정수는 int, 실수는 double 
