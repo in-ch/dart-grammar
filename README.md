@@ -26,3 +26,24 @@
 2) ex) var name ="그"; name=2   => error! 
 3) 다만 dynamic 변수는 한 번 변수의 타입이 지정되어도 마음대로 아무 변수 타입으로 변경이 가능하다. 
 4) 근데 var도 그냥 var name; 이런 식으로 선언해도 dynamic 처럼 쓸 수 있다. (처음에 변수를 지정하지 않았기 때문에)
+
+# 7 List 타입 
+
+1) 여러가지 변수를 담을 수 있다. 
+2) 선언 반식은 List asdff = [];
+3) index 숫자는 0부터 시작함. 
+4) List에 넣을 타입을 <>를 써서 지정해 줄 수 있다. 
+5) Glowable List : 리스트의 사이즈가 자유롭게 늘어나거나 줄일 수 있는 리스트 
+6) Fixed Length List : 선언할 때 길이가 정해져서 추가적으로 길이를 늘이거나 줄일 수 없는 리스트 
+7) 선언할 수 있는 여러 가지 방법 
+
+  List ex = [];
+  List bts = <int>[];
+  List bts2 = List<String>.empty();
+  List bts3 = List.filled(3, 'null');
+  List growableOrFixed = new List<String>.filled(2, 'null', growable: false);
+
+  기존 List<String>ex = new List(숫자);는 더이상 지원하지 않는다. 왜냐하면 null safety 버전에서 list의 기본 컨스트럭터가 아예 없어져 버렸기 때문. 
+  따라서 안에 값을 변경하고 싶으면 []를 써야한다. 
+
+8) 길이를 알 수 있는 메소드는 .length를 쓰면 된다. 
