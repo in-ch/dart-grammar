@@ -1,5 +1,5 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# 1 Helloworld 
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+1) void main(){} 함수는 가장 메인이 되는 함수이다. 
+2) dart 파일이 실행되면 메인 함수에 있는 코드들이 순서대로 실행된다. 
+
