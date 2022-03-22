@@ -62,3 +62,8 @@
 ## 9 변수에 대한 몇가지 약속 
 1) _name같은 변수 선언은 언더스코어 변수 선언법인데 class 배울 때 프라이빗 변수를 선언할 때 쓰임. 
 2) 보통 클래스 선언할 때 Name처럼 대문자로 시작하게끔 변수를 선언함. 
+
+## 10 Final, const
+1) const는 js es6의 그 const랑 역할이 같다. 
+2) const String name = 'ㅇㅁ'; 같은 방식으로 쓰임. 
+3) Final과 const의 차이점은 const는 컴파일 타입, final는 런타임 타입 
