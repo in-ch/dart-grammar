@@ -79,3 +79,6 @@
 
 ## 13 switch & for 
 1) for in, for, switch .... while, do ~ while  걍 똑같음. 나가고 싶을 땐 break... continue...
+
+## 14 enum
+1) Status.values.toList()  쓰면 status 값 죄다 출력된다.
