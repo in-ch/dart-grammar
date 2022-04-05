@@ -73,3 +73,6 @@
 2)   number4 += 1; // number4에 1를 더하고 저장, -=, *=, /=, %= 도 마찬 가지 근데 /=의 경우 int가 double이 될 수 있으니 오류가 난다.
 3) number1 is int , number1 is String, number1 is bool 등으로 타입도 확인하고 return value은 boolean
 4) 위의 반대는 number1 is! int 식으로 쓰임. 
+
+## 12 if & switch
+1) 기존의 것들이랑 같아서 생략
