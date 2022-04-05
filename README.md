@@ -76,3 +76,6 @@
 
 ## 12 if & switch
 1) 기존의 것들이랑 같아서 생략
+
+## 13 switch & for 
+1) for in, for, switch .... while, do ~ while  걍 똑같음. 나가고 싶을 땐 break... continue...
