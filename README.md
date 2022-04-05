@@ -67,3 +67,9 @@
 1) const는 js es6의 그 const랑 역할이 같다. 
 2) const String name = 'ㅇㅁ'; 같은 방식으로 쓰임. 
 3) Final과 const의 차이점은 const는 컴파일 타입, final는 런타임 타입 
+
+## 11 Operator 
+1) number2 ??= 4; // 만약 null 값이면 4를 넣고 아니면 아무것도 하지 말아라.
+2)   number4 += 1; // number4에 1를 더하고 저장, -=, *=, /=, %= 도 마찬 가지 근데 /=의 경우 int가 double이 될 수 있으니 오류가 난다.
+3) number1 is int , number1 is String, number1 is bool 등으로 타입도 확인하고 return value은 boolean
+4) 위의 반대는 number1 is! int 식으로 쓰임. 
