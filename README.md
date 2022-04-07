@@ -82,3 +82,9 @@
 
 ## 14 enum
 1) Status.values.toList()  쓰면 status 값 죄다 출력된다.
+
+## 15 function
+1) void functionname(param) {} 식으로 쓰면 되고 void에 return되는 변수형을 적어주면 된다. 
+2) optional parameter는 넣어도 되고 안 넣어도 되는 파라미터인데 int addlist (List list, int a, [int b = 3]) 처럼 옵셜널에 []를 친다.  
+3) 여기서 b에 int라고 해놨기 때문에 기본값을 숫자로 넣어줘야 한다. 아니면 null이 되서 형이 맞지 않는다.
+4) named parameter는 int addlist (List list, int a, {int b = 3, int c = 2, int d = 4})는 {}안에는 상관이 없이 파라미터를 넣어도 됨. 
