@@ -8,11 +8,11 @@ void main() {
   me.sayName();
   me.sayGroup();
 
-  BoyGroup rm = new BoyGroup('rm', 'bts');
+  // BoyGroup rm = new BoyGroup('rm', 'bts');
 
-  print(rm._name);
-  print(rm._group);
-  rm.sayGroup();
+  // print(rm._name);
+  // print(rm._group);
+  // rm.sayGroup();
 }
 
 class Idol {
@@ -35,16 +35,16 @@ class Idol {
 
 // extends - 상속 할 때 사용
 
-class BoyGroup extends Idol {
-  BoyGroup(
-    String name,
-    String group,
-  ) : super(
-          name: name,
-          group: group,
-        );
+// class BoyGroup extends Idol {
+//   BoyGroup(
+//     String name,
+//     String group,
+//   ) : super(
+//           name: name,
+//           group: group,
+//         );
 
-  void say() {
-    print('asdfasdfasdf');
-  }
-}
+//   void say() {
+//     print('asdfasdfasdf');
+//   }
+// }

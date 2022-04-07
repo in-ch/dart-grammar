@@ -108,3 +108,6 @@
 ## 19 Inheritance 
 1) extends로 상속을 받아오고 super는 부모 상속자를 뜻함.
 
+## 20 Method Overriding 
+1) @override 라고 쓰고 아래에 함수를 적으면 메소드를 덮여쓰기 할 수 있음. @식으로 쓰는 걸 데코레이터라고 함. 
+2) 또 super.ass() 식으로 부모 값을 가져올 수도 있음. 
