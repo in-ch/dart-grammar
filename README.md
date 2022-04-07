@@ -99,3 +99,12 @@
 3) Constructor를 이용해 변수를 클래스 안에 넣을 수 있다.
 4) Constructor overloading랑 비슷한 named Constructor라고 있는데 미리 이름이 있는 Constructor이다. 
 5) 클래스 안의 변수는 그냥 두면 변경이 가능하기 때문에 final를 쓰면 클래스의 변수명을 바꿀 수 없다.
+
+## 18 Getter and Setter 
+1) Getter -> 값을 가져올 때, Setter -> 값을 수정할 때
+2) _name은 프라이빗 변수임. -> 특이한게 같은 파일에 있으면 호출할 수 있음. 원래는 같은 영역 내에서만 호출할 수 있었음.
+3) 그래서 Getter와 Setter로 프라이빗 변수를 가져오는 것임. 
+
+## 19 Inheritance 
+1) extends로 상속을 받아오고 super는 부모 상속자를 뜻함.
+
