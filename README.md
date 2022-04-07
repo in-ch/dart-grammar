@@ -92,3 +92,10 @@
 ## 16 typedef 
 1) 이걸 사용하면 함수를 미리 시그니처화 해서 여러가지 함수를 유용하게 사용이 가능함.
 2) 함수를 변수화해서 사용할 수 있음. 
+
+## 17 Class
+1) 대문자로 class를 시작해야 한다.
+2) Instantiation 인스턴스화 -> 클래스를 인스턴스화한다. 
+3) Constructor를 이용해 변수를 클래스 안에 넣을 수 있다.
+4) Constructor overloading랑 비슷한 named Constructor라고 있는데 미리 이름이 있는 Constructor이다. 
+5) 클래스 안의 변수는 그냥 두면 변경이 가능하기 때문에 final를 쓰면 클래스의 변수명을 바꿀 수 없다.
