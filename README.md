@@ -88,3 +88,7 @@
 2) optional parameter는 넣어도 되고 안 넣어도 되는 파라미터인데 int addlist (List list, int a, [int b = 3]) 처럼 옵셜널에 []를 친다.  
 3) 여기서 b에 int라고 해놨기 때문에 기본값을 숫자로 넣어줘야 한다. 아니면 null이 되서 형이 맞지 않는다.
 4) named parameter는 int addlist (List list, int a, {int b = 3, int c = 2, int d = 4})는 {}안에는 상관이 없이 파라미터를 넣어도 됨. 
+
+## 16 typedef 
+1) 이걸 사용하면 함수를 미리 시그니처화 해서 여러가지 함수를 유용하게 사용이 가능함.
+2) 함수를 변수화해서 사용할 수 있음. 
